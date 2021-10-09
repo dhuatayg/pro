@@ -57,12 +57,12 @@
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <button type="button" class="btn btn-xs btn-primary btn-view-usuario" data-toggle="modal" data-target="#modal-default" value="<?php echo $datausuario;?>">
-                                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                                    <span class="fa fa-file-text-o"></span>
                                                     </button>
                                                     <a href="<?php echo base_url()?>administracion/usuarios/edit/<?php echo $usuario->id_usuario;?>" class="btn btn-xs btn-warning">
-                                                    <span class="glyphicon glyphicon-edit"></span></a>
+                                                    <span class="fa fa-pencil"></span></a>
                                                     <a href="<?php echo base_url();?>administracion/usuarios/delete/<?php echo $usuario->id_usuario;?>" class="btn  btn-xs btn-danger btn-remove">
-                                                    <span class="glyphicon glyphicon-trash"></span></a>
+                                                    <span class="fa fa-trash"></span></a>
                                                 </div>
                                             </td> 
                                         </tr>
