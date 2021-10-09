@@ -4,10 +4,10 @@
     <section class="content-header">
         <h3>
         AREA
-        <small>Nueva área</small>
-        <hr>
+        <small>NUEVA AREA</small>
         </h3>
     </section>
+    <hr>
     <!-- Cuerpo de la caja -->
     <section class="content">
         <div class="box box-success">
@@ -38,7 +38,9 @@
                         </div>  
                     </div>     
                 </div>
+                <br>
                 <hr>
+                <br>
                 <!-- Footer -->
                 <div class="box-footer">
                     <!-- Cajón de Opciones -->

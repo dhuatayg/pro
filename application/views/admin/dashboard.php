@@ -145,6 +145,9 @@
                                     <a href="<?php echo base_url();?>mantenimiento/areas">Áreas</a>
                                 </li> 
                                 <li>
+                                    <a href="<?php echo base_url();?>mantenimiento/cargos">Cargos</a>
+                                </li>
+                                <li>
                                     <a href="<?php echo base_url(); ?>rev/categorias">Categorías</a>
                                 </li> 
                                 <li>

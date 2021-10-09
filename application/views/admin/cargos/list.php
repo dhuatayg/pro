@@ -2,15 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-    <h1>
-        Cargo
-        <small>Listado de Cargos</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-        <li><a href="#"></i>Mantenimientos</a></li>
-        <li class="active">Cargo</li>
-      </ol>
+        <h3>
+        CARGO
+        <small>LISTAR CARGO</small>
+        </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">
@@ -18,12 +15,12 @@
             <!-- Header -->
             <div class="box-header with-border">
                 <div class="btn-group">
-                    <a href="<?php echo base_url();?>mantenimiento/cargos/add" class="btn btn- xs bg-navy btn-flat">        
-                    <span class="glyphicon glyphicon-plus"></span> &nbsp Nuevo Cargo</a>  
-                    <button id="btn_pdf" class="btn bg-red btn-flat">             
-                    <span class="fa fa-file-pdf-o"></span> &nbsp Exportar en PDF</button>                     
-                    <button id="btn_excel" class="btn bg-green btn-flat">      
-                    <span class="fa fa-file-excel-o"></span> &nbsp Exportar en Excel</button>
+                    <a href="<?php echo base_url();?>mantenimiento/cargos/add" class="btn btn-primary btn-sm">            
+                    <strong>NUEVO CARGO&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-plus-circle"></span></a>  
+                    <button id="btn_pdf" class="btn btn-danger btn-sm">             
+                    <strong>REPORTE EN PDF&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-file-pdf-o"></span></button>                   
+                    <button id="btn_excel" class="btn btn-success btn-sm">      
+                    <strong>REPORTE EN EXCEL&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-file-excel-o"></span></button>
                 </div>
             </div>
             <div class="box-body">
@@ -53,13 +50,13 @@
                                             <!-- Galeria de opciones -->                                  
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-cargo" data-toggle="modal" data-target="#modal-default" value="<?php echo $datacargo;?>">
-                                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                                    <button type="button" class="btn btn-xs btn-primary btn-view-cargo" data-toggle="modal" data-target="#modal-default" value="<?php echo $datacargo;?>">
+                                                    <span class="fa fa-file-text-o"></span>
                                                     </button>
                                                     <a href="<?php echo base_url()?>mantenimiento/cargos/edit/<?php echo $cargo->id_cargo;?>" class="btn btn-xs btn-warning">
-                                                    <span class="glyphicon glyphicon-edit"></span></a>
+                                                    <span class="fa fa-pencil"></span></a>
                                                     <a href="<?php echo base_url();?>mantenimiento/cargos/delete/<?php echo $cargo->id_cargo;?>" class="btn  btn-xs btn-danger btn-remove">
-                                                    <span class="glyphicon glyphicon-trash"></span></a>
+                                                    <span class="fa fa-trash"></span></a>
                                                 </div>
                                             </td> 
                                         </tr>

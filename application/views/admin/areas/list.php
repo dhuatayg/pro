@@ -2,11 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-    <h3>
+        <h3>
         AREA
-        <small>Listado de áreas</small>
-        <hr>
+        <small>NUEVA AREA</small>
         </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">

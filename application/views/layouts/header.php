@@ -85,6 +85,7 @@
         .table>tbody>tr>td,
         .table>tfoot>tr>td {
             vertical-align: middle;
+            padding: 3px;
         }
 
         button {
