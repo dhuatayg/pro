@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-xs-12">	
 
-	<p><b>	Datos de la Orden de Produccion : </b></p>
+	<p><b>	Datos OSI : </b></p>
 
 	<table class="table table-striped">
 		<tbody>

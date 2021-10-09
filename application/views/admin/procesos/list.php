@@ -2,15 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-    <h1>
-        Proceso
-        <small>Listado de procesos</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li><a href="#"></i>Mantenimientos</a></li>
-        <li class="active">Proceso</li>
-      </ol>
+        <h3>
+        FASE
+        <small>LISTAR FASE</small>
+        </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">

@@ -25,7 +25,7 @@
                             <div class="form-group"> 
                                 <label for="abre_rol">Código:</label>
                                 <input type="text" class="form-control" id="abre_rol" name="abre_rol" value="<?php 
-                                echo $this->rol->generar_id();?>" readonly="readonly">
+                                echo $this->Roles_model->GenerarIDRol();?>" readonly="readonly">
                             </div>
                         </div>
                         <!-- Nombre de Estado -->

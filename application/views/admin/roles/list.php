@@ -2,28 +2,25 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Rol
-        <small>Listado de Roles</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li><a href="#"></i>Mantenimientos</a></li>
-        <li class="active">Rol</li>
-      </ol>
+        <h3>
+            ROL
+            <small>LISTAR ROL</small>
+        </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">
         <div class="box box-success">
-             <!-- Header -->
-             <div class="box-header with-border">
+            <!-- Header -->
+            <div class="box-header with-border">
                 <div class="btn-group">
-                    <a href="<?php echo base_url();?>administracion/roles/add" class="btn btn- xs bg-navy btn-flat">        
-                    <span class="glyphicon glyphicon-plus"></span> &nbsp Nuevo Rol</a>  
-                    <button id="btn_pdf" class="btn bg-red btn-flat">             
-                    <span class="fa fa-file-pdf-o"></span> &nbsp Exportar en PDF</button>                     
-                    <button id="btn_excel" class="btn bg-green btn-flat">      
-                    <span class="fa fa-file-excel-o"></span> &nbsp Exportar en Excel</button>
+                    <a href="<?php echo base_url(); ?>administracion/roles/add" class="btn btn- xs bg-navy btn-flat">
+                        <span class="glyphicon glyphicon-plus"></span> &nbsp Nuevo Rol</a>
+                    <button id="btn_pdf" class="btn bg-red btn-flat">
+                        <span class="fa fa-file-pdf-o"></span> &nbsp Exportar en PDF</button>
+                    <button id="btn_excel" class="btn bg-green btn-flat">
+                        <span class="fa fa-file-excel-o"></span> &nbsp Exportar en Excel</button>
                 </div>
             </div>
             <div class="box-body">
@@ -33,43 +30,43 @@
                         <!-- Tabla -->
                         <table id="tabla-rol" class="table table-bordered table-striped dataTable" role="grid">
                             <thead>
-                                <tr>    
-                                    <th class="text-center">Código</th>  
+                                <tr>
+                                    <th class="text-center">Código</th>
                                     <th class="text-center">Nombre</th>
                                     <th class="text-center">Descripcion</th>
                                     <th class="text-center">Opciones</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php if(!empty($roles)):?>             
-                                    <?php foreach($roles as $rol):?>
-                                        <tr>                                  
+                                <?php if (!empty($roles)) : ?>
+                                    <?php foreach ($roles as $rol) : ?>
+                                        <tr>
                                             <!-- Items de la tabla -->
-                                            <td class="text-center"><?php echo $rol->abre_rol;?></td>          
-                                            <td class="text-center"><?php echo $rol->nombre_rol;?></td>
-                                            <td class="text-center"><?php echo $rol->descripcion_rol;?></td>
+                                            <td class="text-center"><?php echo $rol->abre_rol; ?></td>
+                                            <td class="text-center"><?php echo $rol->nombre_rol; ?></td>
+                                            <td class="text-center"><?php echo $rol->descripcion_rol; ?></td>
                                             <!-- Items de Información -->
                                             <?php
-                                                $datarol = $rol->id_rol."*".$rol->abre_rol."*".$rol->nombre_rol."*".$rol->descripcion_rol;
+                                            $datarol = $rol->id_rol . "*" . $rol->abre_rol . "*" . $rol->nombre_rol . "*" . $rol->descripcion_rol;
                                             ?>
-                                            <!-- Galeria de opciones -->                                  
+                                            <!-- Galeria de opciones -->
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-rol" data-toggle="modal" data-target="#modal-default" value="<?php echo $datarol;?>">
-                                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                                    <button type="button" class="btn btn-xs btn-default btn-view-rol" data-toggle="modal" data-target="#modal-default" value="<?php echo $datarol; ?>">
+                                                        <span class="glyphicon glyphicon-list-alt"></span>
                                                     </button>
-                                                    <a href="<?php echo base_url()?>administracion/roles/edit/<?php echo $rol->id_rol;?>" class="btn btn-xs btn-warning">
-                                                    <span class="glyphicon glyphicon-edit"></span></a>
-                                                    <a href="<?php echo base_url();?>administracion/roles/delete/<?php echo $rol->id_rol;?>" class="btn  btn-xs btn-danger btn-remove">
-                                                    <span class="glyphicon glyphicon-trash"></span></a>
+                                                    <a href="<?php echo base_url() ?>administracion/roles/edit/<?php echo $rol->id_rol; ?>" class="btn btn-xs btn-warning">
+                                                        <span class="glyphicon glyphicon-edit"></span></a>
+                                                    <a href="<?php echo base_url(); ?>administracion/roles/delete/<?php echo $rol->id_rol; ?>" class="btn  btn-xs btn-danger btn-remove">
+                                                        <span class="glyphicon glyphicon-trash"></span></a>
                                                 </div>
-                                            </td> 
+                                            </td>
                                         </tr>
-                                    <?php 
-                                        endforeach;
+                                    <?php
+                                    endforeach;
                                     ?>
-                                <?php 
-                                    endif;
+                                <?php
+                                endif;
                                 ?>
                             </tbody>
                         </table>
@@ -91,7 +88,7 @@
                 <h4 class="modal-title">Información del Rol</h4>
             </div>
             <div class="modal-body">
-                
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Cerrar</button>
@@ -99,4 +96,3 @@
         </div>
     </div>
 </div>
-

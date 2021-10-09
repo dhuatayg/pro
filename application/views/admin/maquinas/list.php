@@ -2,15 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Máquina
-        <small>Listado de máquinas</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li><a href="#"></i>Mantenimientos</a></li>
-        <li class="active">Máquina</li>
-      </ol>
+        <h3>
+        MAQUINA
+        <small>LISTAR MAQUINA</small>
+        </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">

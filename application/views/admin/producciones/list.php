@@ -2,14 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Producción
-        <small>Listado de Ordenes de Producción</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li><i class="fa fa-calendar-check-o active"></i> Producción</li>
-      </ol>
+        <h3>
+        PRODUCCION
+        <small>LISTAR OSI</small>
+        </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">

@@ -2,15 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Producción
-        <small>Progreso</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li><i class="fa fa-calendar-check-o"></i> Producción</li>
-        <li><i class="active"></i> Progreso</li>
-      </ol>
+        <h3>
+        PRODUCCION
+        <small>PROGRESO</small>
+        </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">

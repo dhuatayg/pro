@@ -2,15 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Estado
-        <small>Listado de estados</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li><a href="#"></i>Mantenimientos</a></li>
-        <li class="active">Estado</li>
-      </ol>
+        <h3>
+        ESTADO
+        <small>LISTAR ESTADO</small>
+        </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">
