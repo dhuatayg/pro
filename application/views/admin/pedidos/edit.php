@@ -2,16 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Pedido
-        <small>Editar pedido</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><i class="fa fa-home"></i> Inicio</<i></li>
-        <li><i class="fa fa-barcode"></i> Pedido</a></li>
-        <li class="active">Editar Pedido</li>
-      </ol>
+        <h3>
+        PEDIDO
+        <small>EDITAR PEDIDO</small>
+        </h3>
     </section>
+    <hr>
     <!-- Cuerpo de la caja -->
     <section class="content">
         <div class="box box-success">
@@ -171,10 +167,14 @@
                         </div>
                     </div>    
                 </div>
-                <div class="box-footer">                 
+                <br>
+                <hr>
+                <br>
+                <!-- Footer -->
+                <div class="box-footer">
                     <!-- Cajón de Opciones -->
-                    <div class="btn-group"> 
-                        <button type="submit" class="btn bg-green btn-flat">
+                    <div class="btn-group">
+                        <button type="submit" class="btn bg-green btn-primary">
                         <span class="fa fa-check"></span> &nbsp Guardar</button>
                         <a href="<?php echo base_url();?>movimiento/pedidos/" class="btn btn-danger btn-flat">
                         <span class="fa fa-close"></span> &nbsp Cancelar</a>

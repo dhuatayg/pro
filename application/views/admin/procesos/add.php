@@ -2,16 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Proceso
-        <small>Nuevo proceso</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><i class="fa fa-home"></i> Inicio</<i></li>
-        <li><i class="fa fa-gear"></i> Mantenimientos</a></li>
-        <li class="active">Nuevo Proceso</li>
-      </ol>
+        <h3>
+        FASE
+        <small>NUEVA FASE</small>
+        </h3>
     </section>
+    <hr>
     <!-- Cuerpo de la caja -->
     <section class="content">
         <div class="box box-success">
@@ -63,11 +59,14 @@
                         </div>  
                     </div>     
                 </div>
+                <br>
+                <hr>
+                <br>
                 <!-- Footer -->
                 <div class="box-footer">
                     <!-- Cajón de Opciones -->
                     <div class="btn-group">
-                        <button type="submit" class="btn bg-green btn-flat">
+                        <button type="submit" class="btn bg-green btn-primary">
                         <span class="fa fa-check"></span> &nbsp Guardar</button>
                         <a href="<?php echo base_url();?>mantenimiento/procesos/" class="btn btn-danger btn-flat">
                         <span class="fa fa-close"></span> &nbsp Cancelar</a>

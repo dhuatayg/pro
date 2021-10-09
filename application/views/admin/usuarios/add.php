@@ -2,16 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Usuarios
-        <small>Nuevo usuario</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li><a href="#"></i>Administración</a></li>
-        <li class="active">Nuevo usuario</li>
-      </ol>
+        <h3>
+        USUARIO
+        <small>NUEVO USUARIO</small>
+        </h3>
     </section>
+    <hr>
     <!-- Cuerpo de la caja -->
     <section class="content">
         <div class="box box-success">
@@ -76,11 +72,14 @@
                         </div>  
                     </div>     
                 </div>
+                <br>
+                <hr>
+                <br>
                 <!-- Footer -->
                 <div class="box-footer">
                     <!-- Cajón de Opciones -->
                     <div class="btn-group">
-                        <button type="submit" class="btn bg-green btn-flat">
+                        <button type="submit" class="btn bg-green btn-primary">
                         <span class="fa fa-check"></span> &nbsp Guardar</button>
                         <a href="<?php echo base_url();?>administracion/usuarios/" class="btn btn-danger btn-flat">
                         <span class="fa fa-close"></span> &nbsp Cancelar</a>

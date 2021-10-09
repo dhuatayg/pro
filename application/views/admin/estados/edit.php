@@ -3,8 +3,8 @@
     <!-- Cabecera -->
     <section class="content-header">
         <h1>
-        Estado
-        <small>Editar estado</small>
+        ESTADO
+        <small>EDIATR ESTADO</small>
         </h1>
         <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
@@ -50,11 +50,14 @@
                         </div>    
                     </div>     
                 </div>
+                <br>
+                <hr>
+                <br>
                 <!-- Footer -->
                 <div class="box-footer">
                     <!-- Cajón de Opciones -->
                     <div class="btn-group">
-                        <button type="submit" class="btn bg-green btn-flat">
+                        <button type="submit" class="btn bg-green btn-primary">
                         <span class="fa fa-check"></span> &nbsp Guardar</button>
                         <a href="<?php echo base_url();?>mantenimiento/estados/" class="btn btn-danger btn-flat">
                         <span class="fa fa-close"></span> &nbsp Cancelar</a>

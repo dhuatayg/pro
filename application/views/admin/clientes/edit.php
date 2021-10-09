@@ -55,6 +55,9 @@
                         </div>            
                     </div>     
                 </div>
+                <br>
+                <hr>
+                <br>
                 <!-- Footer -->
                 <div class="box-footer">
                     <!-- Cajón de Opciones -->

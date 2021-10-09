@@ -2,17 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Rol
-        <small>Nuevo rol</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li><a href="#"></i>Administración</a></li>
-        <li><a href="#"></i>Rol</a></li>
-        <li class="active">Nuevo rol</li>
-      </ol>
+        <h3>
+        ROL
+        <small>NUEVO ROL</small>
+        </h3>
     </section>
+    <hr>
     <!-- Cuerpo de la caja -->
     <section class="content">
         <div class="box box-success">
@@ -51,11 +46,14 @@
                         </div>    
                     </div>     
                 </div>
+                <br>
+                <hr>
+                <br>
                 <!-- Footer -->
                 <div class="box-footer">
                     <!-- Cajón de Opciones -->
                     <div class="btn-group">
-                        <button type="submit" class="btn bg-green btn-flat">
+                        <button type="submit" class="btn bg-green btn-primary">
                         <span class="fa fa-check"></span> &nbsp Guardar</button>
                         <a href="<?php echo base_url();?>administracion/roles/" class="btn btn-danger btn-flat">
                         <span class="fa fa-close"></span> &nbsp Cancelar</a>
