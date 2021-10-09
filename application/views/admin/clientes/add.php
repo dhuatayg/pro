@@ -2,16 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Cliente
-        <small>Nuevo estado</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li><a href="#"></i>Mantenimientos</a></li>
-        <li class="active">Nuevo Cliente</li>
-      </ol>
+        <h3>
+        CLIENTE
+        <small>NUEVO CLIENTE</small>
+        </h3>
     </section>
+    <hr>
     <!-- Cuerpo de la caja -->
     <section class="content">
         <div class="box box-success">
@@ -26,7 +22,7 @@
                     <div class="row">                                            
                         <!-- Documento de Cliente -->
                         <div class="col-md-12">
-                          <div class="form-group <?php echo form_error('ndocumento_cliente') == true ? 'has-error':''?>">                            
+                            <div class="form-group <?php echo form_error('ndocumento_cliente') == true ? 'has-error':''?>">                            
                                 <label for="ndocumento_cliente">Documento de Identidad:</label>
                                 <input type="text" class="form-control" id="ndocumento_cliente" name="ndocumento_cliente"> 
                                 <?php echo form_error("ndocumento_cliente","<span class='help-block'>","</span>");?>
@@ -58,11 +54,14 @@
                         </div>                        
                     </div>     
                 </div>
+                <br>
+                <hr>
+                <br>
                 <!-- Footer -->
                 <div class="box-footer">
                     <!-- Cajón de Opciones -->
                     <div class="btn-group">
-                        <button type="submit" class="btn bg-green btn-flat">
+                        <button type="submit" class="btn bg-green btn-primary">
                         <span class="fa fa-check"></span> &nbsp Guardar</button>
                         <a href="<?php echo base_url();?>mantenimiento/clientes/" class="btn btn-danger btn-flat">
                         <span class="fa fa-close"></span> &nbsp Cancelar</a>
