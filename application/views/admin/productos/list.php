@@ -53,7 +53,7 @@
                                             <!-- Galeria de opciones -->                                  
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-producto" data-toggle="modal" data-target="#modal-default" value="<?php echo $producto->id_producto;?>">
+                                                    <button type="button" class="btn btn-xs btn-primary btn-view-producto" data-toggle="modal" data-target="#modal-default" value="<?php echo $producto->id_producto;?>">
                                                     <span class="fa fa-file-text-o"></span>
                                                     </button>
                                                     <a href="<?php echo base_url()?>rev/productos/edit/<?php echo $producto->id_producto;?>" class="btn btn-xs btn-warning">

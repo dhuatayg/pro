@@ -58,7 +58,7 @@
                                             <!-- Galeria de opciones -->                                  
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-empleado" data-toggle="modal" data-target="#modal-default" value="<?php echo $dataempleado;?>">
+                                                    <button type="button" class="btn btn-xs btn-primary btn-view-empleado" data-toggle="modal" data-target="#modal-default" value="<?php echo $dataempleado;?>">
                                                     <span class="fa fa-file-text-o"></span>
                                                     </button>
                                                     <a href="<?php echo base_url()?>mantenimiento/empleados/edit/<?php echo $empleado->id_empleado;?>" class="btn btn-xs btn-warning">

@@ -54,7 +54,7 @@
                                             <!-- Galeria de opciones -->                                  
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-proceso" data-toggle="modal" data-target="#modal-default" value="<?php echo $dataproceso;?>">
+                                                    <button type="button" class="btn btn-xs btn-primary btn-view-proceso" data-toggle="modal" data-target="#modal-default" value="<?php echo $dataproceso;?>">
                                                     <span class="fa fa-file-text-o"></span>
                                                     </button>
                                                     <a href="<?php echo base_url()?>mantenimiento/procesos/edit/<?php echo $proceso->id_proceso;?>" class="btn btn-xs btn-warning">

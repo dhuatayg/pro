@@ -58,7 +58,7 @@
                                             <!-- Galeria de opciones -->                                  
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-material" data-toggle="modal" data-target="#modal-default" value="<?php echo $datamaterial;?>">
+                                                    <button type="button" class="btn btn-xs btn-primary btn-view-material" data-toggle="modal" data-target="#modal-default" value="<?php echo $datamaterial;?>">
                                                     <span class="fa fa-file-text-o"></span>
                                                     </button>
                                                     <button type="button" class="btn btn-xs bg-olive btn-edit-material" data-toggle="modal" data-target="#exampleModal" value="<?php echo $datamaterial;?>">

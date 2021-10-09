@@ -52,7 +52,7 @@
                                             <!-- Galeria de opciones -->                                  
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-estado" data-toggle="modal" data-target="#modal-default" value="<?php echo $dataestado;?>">
+                                                    <button type="button" class="btn btn-xs btn-primary btn-view-estado" data-toggle="modal" data-target="#modal-default" value="<?php echo $dataestado;?>">
                                                     <span class="fa fa-file-text-o"></span>
                                                     </button>
                                                     <a href="<?php echo base_url()?>mantenimiento/estados/edit/<?php echo $estado->id_estado;?>" class="btn btn-xs btn-warning">

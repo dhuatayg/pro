@@ -56,7 +56,7 @@
                                             <!-- Galeria de opciones -->                                  
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-maquina" data-toggle="modal" data-target="#modal-default" value="<?php echo $datamaquina;?>">
+                                                    <button type="button" class="btn btn-xs btn-primary btn-view-maquina" data-toggle="modal" data-target="#modal-default" value="<?php echo $datamaquina;?>">
                                                     <span class="fa fa-file-text-o"></span>
                                                     </button>
                                                     <a href="<?php echo base_url()?>mantenimiento/maquinas/edit/<?php echo $maquina->id_maquina;?>" class="btn btn-xs btn-warning">

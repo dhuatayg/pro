@@ -52,7 +52,7 @@
                                             <!-- Galeria de opciones -->
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-rol" data-toggle="modal" data-target="#modal-default" value="<?php echo $datarol; ?>">
+                                                    <button type="button" class="btn btn-xs btn-primary btn-view-rol" data-toggle="modal" data-target="#modal-default" value="<?php echo $datarol; ?>">
                                                         <span class="glyphicon glyphicon-list-alt"></span>
                                                     </button>
                                                     <a href="<?php echo base_url() ?>administracion/roles/edit/<?php echo $rol->id_rol; ?>" class="btn btn-xs btn-warning">

@@ -67,7 +67,7 @@
                                             <!-- opciones -->
                                             <td class="text-center"> 
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-pedido" value="<?php echo $pedido->id_pedido;?>" data-toggle="modal" data-target="#modal-default">
+                                                    <button type="button" class="btn btn-xs btn-primary btn-view-pedido" value="<?php echo $pedido->id_pedido;?>" data-toggle="modal" data-target="#modal-default">
                                                     <span class="fa fa-file-text-o"></span>
                                                     </button> 
                                                     </button>

@@ -56,7 +56,7 @@
                                             <!-- Galeria de opciones -->                                  
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-xs btn-default btn-view-usuario" data-toggle="modal" data-target="#modal-default" value="<?php echo $datausuario;?>">
+                                                    <button type="button" class="btn btn-xs btn-primary btn-view-usuario" data-toggle="modal" data-target="#modal-default" value="<?php echo $datausuario;?>">
                                                     <span class="glyphicon glyphicon-list-alt"></span>
                                                     </button>
                                                     <a href="<?php echo base_url()?>administracion/usuarios/edit/<?php echo $usuario->id_usuario;?>" class="btn btn-xs btn-warning">
