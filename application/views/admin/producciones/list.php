@@ -14,11 +14,11 @@
         <div class="box box-success">
             <!-- Header -->
             <div class="box-header with-border">
-                <div class="btn-group"> 
-                    <button id="btn_pdf" class="btn bg-red btn-flat">             
-                    <span class="fa fa-file-pdf-o"></span> &nbsp Exportar en PDF</button>                     
-                    <button id="btn_excel" class="btn bg-green btn-flat">      
-                    <span class="fa fa-file-excel-o"></span> &nbsp Exportar en Excel</button>
+                <div class="btn-group">   
+                    <button id="btn_pdf" class="btn btn-danger btn-sm">             
+                    <strong>REPORTE EN PDF&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-file-pdf-o"></span></button>                   
+                    <button id="btn_excel" class="btn btn-success btn-sm">      
+                    <strong>REPORTE EN EXCEL&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-file-excel-o"></span></button>
                 </div>
             </div>
             <div class="box-body">
@@ -69,17 +69,17 @@
                                                 <?php } ?>
                                                 <td class="text-center">
                                                     <?php if($produccion->id_estado == "3"){    ?>
-                                                        <a href="<?php echo base_url()?>movimiento/producciones/programar/<?php echo $produccion->id_produccion."/".$produccion->id_pedido;?>" class="btn btn-default btn-xs">
-                                                        <span class="glyphicon glyphicon-calendar"></span></a>
+                                                        <a href="<?php echo base_url()?>movimiento/producciones/programar/<?php echo $produccion->id_produccion."/".$produccion->id_pedido;?>" class="btn btn-primary btn-xs">
+                                                        <span class="fa fa-calendar"></span></a>
                                                     <?php }else{    ?>
                                                         <!-- Seguimiento y Control -->
                                                         <div class="btn-group"> 
-                                                            <button type="button" class="btn btn-xs btn-default btn-view-produccion" data-toggle="modal" data-target="#modal-produccion" value="<?php echo $produccion->id_produccion;?>">
-                                                            <span class="glyphicon glyphicon-list-alt"></span>
+                                                            <button type="button" class="btn btn-xs btn-primary btn-view-produccion" data-toggle="modal" data-target="#modal-produccion" value="<?php echo $produccion->id_produccion;?>">
+                                                            <span class="fa fa-file-text-o"></span>
                                                             </button>
-                                                            <a href="<?php echo base_url()?>movimiento/producciones/progreso/<?php echo $produccion->id_produccion;?>" class="btn btn-xs btn-flat btn-default"> <span class="glyphicon glyphicon-align-left"></span></a>
-                                                            <a href="<?php echo base_url();?>movimiento/producciones/seguimiento/<?php echo $produccion->id_produccion;?>" class="btn btn-xs btn-flat btn-default"> <span class="glyphicon glyphicon-copy"></span></a>
-                                                            <a href="<?php echo base_url();?>movimiento/producciones/timeline/<?php echo $produccion->id_produccion;?>" class="btn btn-xs btn-flat btn-default"> <span class="glyphicon glyphicon-hourglass"></span></a>
+                                                            <a href="<?php echo base_url()?>movimiento/producciones/progreso/<?php echo $produccion->id_produccion;?>" class="btn btn-xs btn-flat btn-primary"> <span class="fa fa-align-left"></span></a>
+                                                            <a href="<?php echo base_url();?>movimiento/producciones/seguimiento/<?php echo $produccion->id_produccion;?>" class="btn btn-xs btn-flat btn-primary"> <span class="fa fa-copy"></span></a>
+                                                            <a href="<?php echo base_url();?>movimiento/producciones/timeline/<?php echo $produccion->id_produccion;?>" class="btn btn-xs btn-flat btn-primary"> <span class="fa fa-hourglass"></span></a>
                                                         </div>
                                                     <?php }  ?>
                                                 </td>

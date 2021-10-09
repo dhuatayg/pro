@@ -15,12 +15,12 @@
             <!-- Header -->
             <div class="box-header with-border">
                 <div class="btn-group">
-                    <a href="<?php echo base_url();?>mantenimiento/empleados/add" class="btn btn- xs bg-navy btn-flat">        
-                    <span class="glyphicon glyphicon-plus"></span> &nbsp Nuevo Empleado</a>  
-                    <button id="btn_pdf" class="btn bg-red btn-flat">             
-                    <span class="fa fa-file-pdf-o"></span> &nbsp Exportar en PDF</button>                     
-                    <button id="btn_excel" class="btn bg-green btn-flat">      
-                    <span class="fa fa-file-excel-o"></span> &nbsp Exportar en Excel</button>
+                    <a href="<?php echo base_url();?>mantenimiento/empleados/add" class="btn btn-primary btn-sm">        
+                    <strong>NUEVO EMPLEADO&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-plus-circle"></span></a>  
+                    <button id="btn_pdf" class="btn btn-danger btn-sm">             
+                    <strong>REPORTE EN PDF&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-file-pdf-o"></span></button>                   
+                    <button id="btn_excel" class="btn btn-success btn-sm">      
+                    <strong>REPORTE EN EXCEL&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-file-excel-o"></span></button>
                 </div>
             </div>
             <div class="box-body">
@@ -59,12 +59,12 @@
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <button type="button" class="btn btn-xs btn-default btn-view-empleado" data-toggle="modal" data-target="#modal-default" value="<?php echo $dataempleado;?>">
-                                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                                    <span class="fa fa-file-text-o"></span>
                                                     </button>
                                                     <a href="<?php echo base_url()?>mantenimiento/empleados/edit/<?php echo $empleado->id_empleado;?>" class="btn btn-xs btn-warning">
-                                                    <span class="glyphicon glyphicon-edit"></span></a>
+                                                    <span class="fa fa-pencil"></span></a>
                                                     <a href="<?php echo base_url();?>mantenimiento/empleados/delete/<?php echo $empleado->id_empleado;?>" class="btn  btn-xs btn-danger btn-remove">
-                                                    <span class="glyphicon glyphicon-trash"></span></a>
+                                                    <span class="fa fa-trash"></span></a>
                                                 </div>
                                             </td> 
                                         </tr>

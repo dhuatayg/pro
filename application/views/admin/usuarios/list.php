@@ -2,15 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Usuario
-        <small>Listado de usuarios</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li><a href="#"></i>Administración</a></li>
-        <li class="active">Usuario</li>
-      </ol>
+        <h3>
+            USUARIO
+            <small>LISTAR USUARIO</small>
+        </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">
@@ -18,12 +15,12 @@
              <!-- Header -->
              <div class="box-header with-border">
                 <div class="btn-group">
-                    <a href="<?php echo base_url();?>administracion/usuarios/add" class="btn btn- xs bg-navy btn-flat">        
-                    <span class="glyphicon glyphicon-plus"></span> &nbsp Nuevo Usuario</a>  
-                    <button id="btn_pdf" class="btn bg-red btn-flat">             
-                    <span class="fa fa-file-pdf-o"></span> &nbsp Exportar en PDF</button>                     
-                    <button id="btn_excel" class="btn bg-green btn-flat">      
-                    <span class="fa fa-file-excel-o"></span> &nbsp Exportar en Excel</button>
+                    <a href="<?php echo base_url();?>administracion/usuarios/add" class="btn btn-primary btn-sm">        
+                    <strong>NUEVO USUARIO&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-plus-circle"></span></a>  
+                    <button id="btn_pdf" class="btn btn-danger btn-sm">             
+                    <strong>REPORTE EN PDF&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-file-pdf-o"></span></button>                   
+                    <button id="btn_excel" class="btn btn-success btn-sm">      
+                    <strong>REPORTE EN EXCEL&nbsp;&nbsp;&nbsp;</strong><span class="fa fa-file-excel-o"></span></button>
                 </div>
             </div>
             <div class="box-body">
