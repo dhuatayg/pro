@@ -2,15 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-    <h1>
-        Material
-        <small>Listado de Materiales</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-        <li><a href="#"></i>Inventario</a></li>
-        <li class="active">Materiales</li>
-      </ol>
+        <h3>
+        MATERIAL
+        <small>LISTAR MATERIAL</small>
+        </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">

@@ -2,14 +2,12 @@
 <div class="content-wrapper">
     <!-- Cabecera -->
     <section class="content-header">
-        <h1>
-        Pedido
-        <small>Listado de pedidos</small>
-        </h1>
-        <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-        <li class="active">Pedido</li>
-      </ol>
+        <h3>
+        PEDIDO
+        <small>LISTAR PEDIDO</small>
+        </h3>
+    </section>
+    <hr>
     </section>
     <!-- Contenido de la caja -->
     <section class="content">
@@ -34,7 +32,7 @@
                             <thead>
                                 <tr>
                                     <th class="text-center">Serie</th>
-                                    <th class="text-center">Cliente</th>
+                                    <th class="text-center">PEDIDO</th>
                                     <th class="text-center">Fecha Emisión</th>
                                     <th class="text-center">Fecha Entrega</th>
                                     <th class="text-center">Total</th>

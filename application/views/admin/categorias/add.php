@@ -25,7 +25,8 @@
                         <div class="col-md-12">
                             <div class="form-group"> 
                                 <label for="abre_categoria">Código:</label>
-                                <input type="text" class="form-control" id="abre_categoria" name="abre_categoria" value="" readonly="readonly">
+                                <input type="text" class="form-control" id="abre_categoria" name="abre_categoria" value="<?php 
+                                echo $this->Categorias_model->GenerarIDCategoria();?>"readonly="readonly">
                             </div>
                         </div>
                         <!-- Nombre de Estado -->
