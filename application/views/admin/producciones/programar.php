@@ -92,6 +92,7 @@
                                 <div class="tab-content">
                                     <!-- Materiales -->
                                     <div class="tab-pane active" id="tab_1">
+                                        <br>
                                         <!-- Confirmar -->
                                         <div class="form-group">
                                             <div class="row">                                           
@@ -146,6 +147,7 @@
                                     </div>
                                     <!-- Procesos -->
                                     <div class="tab-pane" id="tab_4">
+                                    <br>
                                         <!-- Datos del Proceso -->
                                         <div class="form-group">
                                             <div class="row">
@@ -188,6 +190,7 @@
                                     </div>                                            
                                     <!-- Maquinas -->
                                     <div class="tab-pane" id="tab_5">
+                                    <br>
                                         <table id="tab_pr_maquina" class="table table-bordered table-striped dataTable">
                                             <thead>
                                                 <tr>
@@ -212,7 +215,8 @@
                                         </table>
                                     </div>
                                     <!-- Trabajo -->
-                                    <div class="tab-pane" id="tab_2">    
+                                    <div class="tab-pane" id="tab_2">  
+                                    <br>  
                                         <div class="row">                                                    
                                             <div class="form-group">
                                                 <!-- Fecha de Trabajo -->
@@ -265,7 +269,8 @@
                                         </div>                          
                                     </div> 
                                     <!-- Gastos Indirectos -->
-                                    <div class="tab-pane" id="tab_3">    
+                                    <div class="tab-pane" id="tab_3">   
+                                    <br> 
                                         <div class="row">                                                    
                                             <div class="form-group">
                                                 <!-- Descripción del Gasto Indirecto -->
@@ -309,6 +314,7 @@
                         <!-- Fin nav -->
                     </div> 
                     <!-- Resultados -->
+                    <br>
                     <div class="form-group">
                         <div class="col-md-3">
                             <div class="input-group">
@@ -336,10 +342,13 @@
                         </div>                   
                     </div>     
                 </div>
+                <br>
+                <hr>
+                <br>
                 <div class="box-footer">                 
                     <!-- Cajón de Opciones -->
                     <div class="btn-group"> 
-                        <button type="submit" class="btn bg-green btn-flat">
+                        <button type="submit" class="btn bg-green btn-primary">
                         <span class="fa fa-check"></span> &nbsp Guardar</button>
                         <a href="<?php echo base_url();?>movimiento/producciones/" class="btn btn-danger btn-flat">
                         <span class="fa fa-close"></span> &nbsp Cancelar</a>
